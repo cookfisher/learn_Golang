@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math"
 )
-// the z² − x above is how far away z² is from where it needs to be (x), and the division by 2z is the derivative of z², to scale how much we adjust z by how quickly z² is changing. This general approach is called Newton's method.
+// the z² − x is how far away z² is from where it needs to be (x), and the division by 2z is the derivative of z², to scale how much we adjust z by how quickly z² is changing. This general approach is called Newton's method.
 func Sqrt(x float64) float64 {
 	z := float64(x)/2
 //	z := float64(1)
